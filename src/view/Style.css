@@ -1,0 +1,85 @@
+.this {
+    -fx-background-color: #001747;
+}
+
+.menu {
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 0px;
+    -fx-margin:0px;
+    -fx-font-size: 18;
+}
+
+.button {
+    -fx-background-color: #FFE04A;
+    -fx-text-fill: #001747;
+    -fx-background-radius: 2px;
+}
+
+.button:hover {
+    -fx-background-color: #FFEE7A;
+    -fx-text-fill: #001747;
+    -fx-background-radius: 2px;
+}
+
+.button:pressed {
+    -fx-effect: innershadow(three-pass-box, orange,7,0,0,0);
+}
+
+.buttonDel:hover {
+    -fx-background-color:  #ff4d4d;
+    -fx-text-fill: #001747;
+}
+
+.label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.error {
+    -fx-text-fill: "orange";
+}
+.success {
+    -fx-text-fill: "lightgreen";
+}
+
+.matchTable .label {
+    -fx-text-fill: #444;
+}
+
+.bold {
+    -fx-font-weight: bold;
+}
+
+.bordered {
+    -fx-border-color: #FFE04A;
+    /*-fx-spacing: 500px;*/
+}
+
+.whiteBordered {
+    -fx-border-color: #FFF;
+}
+
+.lightBlueBorder {
+    -fx-border-color: #002880;
+}
+
+.size14 {
+    -fx-font-size: 14;
+}
+
+.size16 {
+    -fx-font-size: 16;
+}
+
+.size18 {
+    -fx-font-size: 18;
+}
+
+.clearer-disabled-state:disabled .label,
+.clearer-disabled-state:disabled .radio-button
+{
+    -fx-opacity: 0.8;
+}
+
+.red {
+    -fx-text-fill: orangered;
+}
